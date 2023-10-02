@@ -24,6 +24,7 @@ export default function ChatList() {
         })
         if (!response.ok) {
             console.log(response.statusText)
+            alert("wdnmd")
             return
         }
         const { data } = await response.json()
