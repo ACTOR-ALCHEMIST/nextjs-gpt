@@ -2,10 +2,14 @@
     "build": {
       "env": {
         "PRISMA_GENERATE": "true"
-      },
-      "plugins": [
-        "@vercel/plugin-prisma"
-      ]
-    }
+      }
+    },
+    "functions": {
+      "postBuild": {
+        "runtime": "vercel-node@1.11.0",
+        "memory": 1024
+      }
+    },
+    "plugins": ["@vercel/plugin-prisma"]
   }
   
