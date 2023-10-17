@@ -200,10 +200,10 @@ export default function ChatInput() {
                     ©️{new Date().getFullYear()}&nbsp;{" "}
                     <a
                         className='font-medium py-[1px] border-b border-dotted border-black/60 hover:border-black/0 dark:border-gray-200 dark:hover:border-gray-200/0 animated-underline'
-                        href='https://x.zhixing.co'
+                        href='https://www.hujiang.icu'
                         target='_blank'
                     >
-                        知行小课
+                        Hujiang
                     </a>
                     .&nbsp;基于第三方提供的接口
                 </footer>
